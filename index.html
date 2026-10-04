@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | M. Alfin Ma'arif - Manajemen &amp; Analisis Data</title>
+
+  <!-- Meta SEO -->
+  <meta name="description"
+    content="Portofolio profesional M. Alfin Ma'arif - Fresh Graduate , analisis data , IoT, dan tata kelola pelayanan kesehatan.">
+  <meta name="keywords"
+    content="portofolio, manajemen , FKTP, akreditasi, excel, analisis data kesehatan, IoT, fresh graduate, M. Alfin Ma'arif">
+  <meta name="author" content="M. Alfin Ma'arif">
+
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="Portofolio | M. Alfin Ma'arif - Manajemen & Analisis Data">
+  <meta property="og:description"
+    content="Portofolio M. Alfin Ma'arif di bidang Manajemen , Tata Kelola FKTP, Analisis Data Kesehatan, dan Otomasi.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon Icon (🏥) dengan viewBox valid -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><text y=%2226%22 font-size=%2226%22>🏥</text></svg>">
+
+  <!-- Font Awesome 6 (Icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Ambient Background Glows -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- ===================================================================
+       HEADER & NAVIGATION
+       =================================================================== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" id="brand-logo">
+        <div class="logo-badge">AM</div>
+        <div class="logo-text">Porto<span>folio</span></div>
+      </a>
+
+      <!-- Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Beranda</a></li>
+          <li><a href="#about" class="nav-link">Tentang</a></li>
+          <li><a href="#skills" class="nav-link">Keahlian</a></li>
+          <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#certificates" class="nav-link">Sertifikasi</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items: Theme Toggle & CV Download -->
+      <div class="nav-actions">
+        <!-- Tombol Ganti Tema (Dark / Light) -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Ganti Tema">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <!-- Tombol Resume (diarahkan ke #contact karena link CV belum tersedia) -->
+        <a href="#contact" class="btn btn-primary btn-sm" id="btn-cv">
+          <i class="fa-solid fa-file-arrow-down"></i> Resume
+        </a>
+
+        <!-- Mobile Toggle Button -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Buka Menu Navigasi">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================================================================
+         HERO SECTION (BERANDA)
+         =================================================================== -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Hero Text & CTA -->
+          <div class="hero-content">
+            <div class="hero-status">
+              <span class="pulse-dot"></span>
+              <span>Terbuka untuk Kolaborasi &amp; Pembelajaran</span>
+            </div>
+
+            <h1 class="hero-title">
+              Halo, Saya <br>
+              <span class="highlight">M. Alfin Ma'arif</span>
+            </h1>
+
+            <div class="hero-subtitle">
+              <span>Saya seorang </span>
+              <!-- Teks dinamis diketik oleh JavaScript di assets/js/main.js -->
+              <span class="typed-text" id="typed-text"></span>
+              <span class="cursor">&nbsp;</span>
+            </div>
+
+            <p class="hero-description">
+              Berfokus pada tata kelola dan administrasi (FKTP): perencanaan, pelaporan, hingga persiapan
+              akreditasi. Memanfaatkan Excel/Google Sheets dan pemrograman dasar untuk merapikan data dan
+              mengotomatisasi pekerjaan harian agar pelayanan kesehatan tingkat pertama berjalan lebih efisien.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fa-solid fa-laptop-medical"></i> Lihat Portofolio
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fa-regular fa-envelope"></i> Hubungi Saya
+              </a>
+            </div>
+
+            <div class="hero-socials">
+              <span class="hero-social-label">Kontak Langsung:</span>
+              <div class="social-links">
+                <!-- Tautan WhatsApp & Email resmi dari data diri -->
+                <a href="https://wa.me/6283107522692" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+                  title="Hubungi via WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="mailto:alpinliqyour@gmail.com" class="social-icon-btn" title="Kirim Email Langsung">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual / Avatar Card -->
+          <div class="hero-visual">
+            <div class="avatar-wrapper">
+              <div class="avatar-backdrop"></div>
+              <div class="avatar-card">
+                <img src="assets/images/Profile.jpeg" alt="Foto Profil M. Alfin Ma'arif" class="avatar-img"
+                  id="hero-avatar">
+              </div>
+
+              <!-- Floating Micro Stats Badges (Sesuai Aturan Brief Baru) -->
+              <div class="floating-badge badge-left">
+                <div class="badge-icon exp">
+                  <i class="fa-solid fa-hospital"></i>
+                </div>
+                <div class="badge-text">
+                  <h4>Manajemen </h4>
+                  <p>Fresh Graduate</p>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-right">
+                <div class="badge-icon code">
+                  <i class="fa-solid fa-chart-column"></i>
+                </div>
+                <div class="badge-text">
+                  <h4>Data &amp; Otomasi</h4>
+                  <p>Excel, Sheets &amp; IoT</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         ABOUT SECTION (TENTANG SAYA)
+         =================================================================== -->
+    <section class="about" id="about">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-regular fa-user"></i> Mengenal Saya</span>
+          <h2 class="section-title">Tentang <span class="highlight">Diri Saya</span></h2>
+          <p class="section-subtitle">
+            Ringkasan latar belakang, tata kelola fasilitas kesehatan tingkat pertama, dan minat analisis data.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Quote & Personal Info Table -->
+          <div class="about-card-banner">
+            <blockquote class="about-quote">
+              "Layanan kesehatan yang baik lahir dari tata kelola yang rapi, data yang akurat, dan semangat belajar yang
+              tidak berhenti."
+            </blockquote>
+
+            <div class="about-personal-info">
+              <div class="info-item">
+                <span class="info-label">Pendidikan</span>
+                <span class="info-val">S1 Sistem Informasi</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Lokasi</span>
+                <span class="info-val">Pandeglang, Indonesia</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Spesialisasi</span>
+                <span class="info-val">Manajemen FKTP &amp; Analisis Data</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Status</span>
+                <span class="info-val">Fresh Graduate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Bio Narration & Stat Cards -->
+          <div class="about-content">
+            <p>
+              Saya adalah seorang <strong>Fresh Graduate di bidang Manajemen </strong> yang memiliki minat dan
+              dedikasi mendalam pada tata kelola pelayanan kesehatan tingkat pertama: perencanaan (P1-P2-P3), manajemen
+              mutu, akreditasi, dan pelaporan resmi.
+            </p>
+            <p>
+              Di luar administrasi, saya mengembangkan kemampuan <strong>Excel/Google Sheets</strong> dan pemrograman
+              dasar (termasuk IoT dan otomasi data) untuk mendukung pengambilan keputusan berbasis data, sambil terus
+              mengasah kepemimpinan dan komunikasi profesional.
+            </p>
+
+            <!-- Stat Counters (3 Kartu Sesuai Data Diri) -->
+            <div class="stat-grid">
+              <div class="stat-card">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Bidang Fokus</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Proyek Pilihan</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">2026</div>
+                <div class="stat-label">Tahun Lulus</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SKILLS & TECH STACK SECTION (4 Kategori)
+         =================================================================== -->
+    <section class="skills" id="skills">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-stethoscope"></i> Kompetensi &amp; Alat</span>
+          <h2 class="section-title">Keahlian &amp; <span class="highlight">Kompetensi</span></h2>
+          <p class="section-subtitle">
+            Keterampilan manajemen fasilitas kesehatan, analisis data spreadsheet, dasar pemrograman/IoT, dan
+            pengembangan diri.
+          </p>
+        </div>
+
+        <div class="skills-container">
+
+          <!-- Kategori 1: Manajemen & Tata Kelola  -->
+          <div class="skills-category">
+            <h3 class="skills-category-title">
+              <i class="fa-solid fa-hospital"></i> Manajemen &amp; Tata Kelola
+            </h3>
+            <div class="skills-grid">
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #0d9488;"><i class="fa-solid fa-diagram-project"></i></div>
+                <div class="skill-name">Perencanaan P1-P2-P3 &amp; Lokmin</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Menengah</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #14b8a6;"><i class="fa-solid fa-clipboard-check"></i></div>
+                <div class="skill-name">Akreditasi FKTP</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Menengah</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #059669;"><i class="fa-solid fa-bullseye"></i></div>
+                <div class="skill-name">Manajemen Mutu &amp; IKU</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Menengah</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #0284c7;"><i class="fa-solid fa-file-lines"></i></div>
+                <div class="skill-name">Pelaporan &amp; Administrasi</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Menengah</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #0d9488;"><i class="fa-solid fa-notes-medical"></i></div>
+                <div class="skill-name">SIMPUS &amp; P-Care BPJS</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Dasar</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #f59e0b;"><i class="fa-solid fa-pills"></i></div>
+                <div class="skill-name">Manajemen Obat &amp; Logistik</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Dasar</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Kategori 2: Excel, Google Sheets & Analisis Data -->
+          <div class="skills-category">
+            <h3 class="skills-category-title">
+              <i class="fa-solid fa-chart-column"></i> Excel, Google Sheets &amp; Analisis Data
+            </h3>
+            <div class="skills-grid">
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #217346;"><i class="fa-solid fa-file-excel"></i></div>
+                <div class="skill-name">Microsoft Excel</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Menengah</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #0f9d58;"><i class="fa-solid fa-table"></i></div>
+                <div class="skill-name">Google Sheets</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Menengah</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #14b8a6;"><i class="fa-solid fa-table-cells"></i></div>
+                <div class="skill-name">Pivot Table</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Menengah</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #0ea5e9;"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="skill-name">XLOOKUP / INDEX-MATCH</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Menengah</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #6366f1;"><i class="fa-solid fa-calculator"></i></div>
+                <div class="skill-name">COUNTIF / SUMIF</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Menengah</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #f59e0b;"><i class="fa-solid fa-chart-pie"></i></div>
+                <div class="skill-name">Dashboard &amp; Grafik</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Dasar</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Kategori 3: Pemrograman, IoT & Otomasi -->
+          <div class="skills-category">
+            <h3 class="skills-category-title">
+              <i class="fa-solid fa-microchip"></i> Pemrograman, IoT &amp; Otomasi
+            </h3>
+            <div class="skills-grid">
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #e34f26;"><i class="fa-brands fa-html5"></i></div>
+                <div class="skill-name">HTML &amp; CSS</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Dasar</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #f7df1e;"><i class="fa-brands fa-js"></i></div>
+                <div class="skill-name">JavaScript</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Dasar</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #3776ab;"><i class="fa-brands fa-python"></i></div>
+                <div class="skill-name">Python</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Dasar</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #4285f4;"><i class="fa-brands fa-google"></i></div>
+                <div class="skill-name">Google Apps Script</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Dasar</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #10b981;"><i class="fa-solid fa-microchip"></i></div>
+                <div class="skill-name">IoT &amp; Sensor Arduino/ESP32</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Terus Berkembang</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #f05032;"><i class="fa-brands fa-git-alt"></i></div>
+                <div class="skill-name">Git &amp; GitHub</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Dasar</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Kategori 4: Kepemimpinan & Pengembangan Diri -->
+          <div class="skills-category">
+            <h3 class="skills-category-title">
+              <i class="fa-solid fa-people-group"></i> Kepemimpinan &amp; Pengembangan Diri
+            </h3>
+            <div class="skills-grid">
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #14b8a6;"><i class="fa-solid fa-flag"></i></div>
+                <div class="skill-name">Kepemimpinan</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Terus Berkembang</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #06b6d4;"><i class="fa-solid fa-comments"></i></div>
+                <div class="skill-name">Komunikasi Profesional</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Terus Berkembang</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #f59e0b;"><i class="fa-solid fa-bolt"></i></div>
+                <div class="skill-name">Efisiensi Kerja</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Terus Berkembang</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #10b981;"><i class="fa-solid fa-people-group"></i></div>
+                <div class="skill-name">Kerja Tim Lintas Program</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Terus Berkembang</span>
+              </div>
+
+              <div class="skill-pill">
+                <div class="skill-icon" style="color: #a855f7;"><i class="fa-solid fa-book-open-reader"></i></div>
+                <div class="skill-name">Belajar Mandiri</div>
+                <!-- VERIFIKASI: sesuaikan tingkat kemahiran jika perlu -->
+                <span class="skill-level-badge">Terus Berkembang</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         EXPERIENCE & EDUCATION TIMELINE
+         =================================================================== -->
+    <section class="experience" id="experience">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-timeline"></i> Riwayat Perjalanan</span>
+          <h2 class="section-title">Pengalaman &amp; <span class="highlight">Pendidikan</span></h2>
+          <p class="section-subtitle">
+            Jejak pengabdian kerja di fasilitas kesehatan tingkat pertama serta perjalanan studi akademis.
+          </p>
+        </div>
+
+        <!-- Timeline Tabs -->
+        <div class="timeline-tabs">
+          <button class="timeline-tab-btn active" data-target="tab-experience">
+            <i class="fa-solid fa-briefcase"></i> Pengalaman Kerja &amp; Organisasi
+          </button>
+          <button class="timeline-tab-btn" data-target="tab-education">
+            <i class="fa-solid fa-graduation-cap"></i> Pendidikan
+          </button>
+        </div>
+
+        <!-- Panel 1: Pengalaman Kerja & Organisasi -->
+        <div class="timeline-panel active" id="tab-experience">
+          <div class="timeline-list">
+
+            <!-- Pengalaman 1: Puskesmas Carita -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-meta">
+                  <!-- VERIFIKASI: isi bulan/tahun mulai bekerja secara spesifik bila diinginkan -->
+                  <span class="timeline-period">1 Tahun Lebih - Sekarang</span>
+                  <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Pandeglang, Banten</span>
+                </div>
+                <h3 class="timeline-role">Manajemen </h3>
+                <h4 class="timeline-org">UPT Puskesmas Carita</h4>
+                <p class="timeline-desc">
+                  Mendukung tata kelola dan administrasi pelayanan di fasilitas kesehatan tingkat pertama.
+                </p>
+                <ul class="timeline-bullets">
+                  <li>Membantu penyusunan perencanaan (P1-P2-P3) dan dokumen pendukung Lokakarya Mini.</li>
+                  <li>Merekap dan menganalisis data kunjungan serta capaian program dengan Excel/Google Sheets.</li>
+                  <li>Mendukung pelaporan resmi dan kelengkapan dokumen persiapan akreditasi.</li>
+                  <!-- VERIFIKASI: pemilik dapat menyesuaikan dengan rincian tugas operasional sebenarnya di Puskesmas Carita -->
+                </ul>
+              </div>
+            </div>
+
+            <!-- Pengalaman 2: Organisasi (IMM, Tapak Suci, IPM) -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-meta">
+                  <!-- VERIFIKASI: sesuaikan rentang tahun aktif di organisasi -->
+                  <span class="timeline-period">2022 - Sekarang</span>
+                  <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Pandeglang, Banten</span>
+                </div>
+                <!-- VERIFIKASI: sesuaikan jabatan / amanah spesifik jika ada -->
+                <h3 class="timeline-role">Pengurus &amp; Anggota Aktif</h3>
+                <h4 class="timeline-org">Ikatan Mahasiswa Muhammadiyah (IMM), Tapak Suci, &amp; IPM</h4>
+                <p class="timeline-desc">
+                  Aktif mengembangkan kepemimpinan, kedisiplinan organisasi, koordinasi program kerja, dan komunikasi
+                  lintas bidang.
+                </p>
+                <ul class="timeline-bullets">
+                  <li>Terlibat dalam perencanaan kegiatan kemahasiswaan, kepanitiaan, dan program sosial kemasyarakatan.
+                  </li>
+                  <li>Mengasah kemampuan komunikasi publik, diplomasi organisasi, serta kerja sama tim dalam
+                    menyelesaikan target program.</li>
+                  <!-- VERIFIKASI: lengkapi jabatan atau kegiatan unggulan di IMM, Tapak Suci, atau IPM -->
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Panel 2: Pendidikan -->
+        <div class="timeline-panel" id="tab-education">
+          <div class="timeline-list">
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-meta">
+                  <span class="timeline-period">2022 - 2026</span>
+                  <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Banten, Indonesia</span>
+                </div>
+                <h3 class="timeline-role">S1 Sistem Informasi</h3>
+                <h4 class="timeline-org">Universitas Muhammadiyah Banten</h4>
+                <p class="timeline-desc">
+                  Mendalami analisis sistem informasi, pengolahan basis data, serta pemanfaatan teknologi informasi
+                  untuk manajemen organisasi dan layanan publik.
+                </p>
+                <ul class="timeline-bullets">
+                  <!-- VERIFIKASI: isi judul tugas akhir/skripsi jika sudah ditentukan -->
+                  <li>[ISI: Judul tugas akhir / skripsi di bidang sistem informasi atau kesehatan jika ada]</li>
+                  <!-- VERIFIKASI: isi jika ada prestasi akademik/beasiswa -->
+                  <li>[ISI: Prestasi akademik atau kegiatan kemahasiswaan lainnya]</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         PORTFOLIO & PROJECTS SECTION
+         =================================================================== -->
+    <section class="projects" id="projects">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-folder-open"></i> Karya &amp; Implementasi</span>
+          <h2 class="section-title">Portofolio <span class="highlight">Proyek</span></h2>
+          <p class="section-subtitle">
+            Inisiatif template data, instrumen manajemen , dan eksplorasi otomasi IoT. Klik untuk melihat
+            detail lengkap.
+          </p>
+        </div>
+
+        <!-- Category Filters Sesuai Aturan Baru -->
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="manajemen">Manajemen Puskesmas</button>
+          <button class="filter-btn" data-filter="data">Data &amp; Excel</button>
+          <button class="filter-btn" data-filter="iot">IoT &amp; Otomasi</button>
+        </div>
+
+        <!-- Projects Grid (4 Kartu Draft Contoh Sesuai Brief) -->
+        <div class="projects-grid" id="projects-grid">
+
+          <!-- Proyek 1: Dashboard Rekap Kunjungan & Capaian Program -->
+          <!-- VERIFIKASI: ganti dengan proyek nyata yang pernah dikerjakan -->
+          <article class="project-card" data-category="manajemen data">
+            <div class="project-thumb">
+              <img src="assets/images/project-1.svg" alt="Dashboard Rekap Kunjungan &amp; Capaian Program">
+              <div class="project-overlay">
+                <button class="overlay-btn btn-preview" title="Lihat Pratinjau"><i class="fa-solid fa-eye"></i></button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Excel</span>
+                <span class="project-tag">Pivot Table</span>
+                <span class="project-tag">Dashboard</span>
+              </div>
+              <h3 class="project-title">Dashboard Rekap Kunjungan &amp; Capaian Program</h3>
+              <p class="project-description">
+                Template rekap kunjungan pasien dan capaian program (KIA, P2P, Gizi) dengan pivot table dan grafik
+                otomatis untuk memantau target bulanan.
+              </p>
+              <div class="project-footer">
+                <button class="btn-preview project-link" style="background:none; border:none; cursor:pointer;">
+                  Detail Lengkap <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <a href="#" class="link-demo" style="display:none;"></a>
+                <a href="#" class="link-code" style="display:none;"></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyek 2: Monitoring Stok Obat & Alkes -->
+          <!-- VERIFIKASI: ganti dengan proyek nyata yang pernah dikerjakan -->
+          <article class="project-card" data-category="manajemen data">
+            <div class="project-thumb">
+              <img src="assets/images/project-2.svg" alt="Monitoring Stok Obat &amp; Alkes">
+              <div class="project-overlay">
+                <button class="overlay-btn btn-preview" title="Lihat Pratinjau"><i class="fa-solid fa-eye"></i></button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Google Sheets</span>
+                <span class="project-tag">Apps Script</span>
+              </div>
+              <h3 class="project-title">Monitoring Stok Obat &amp; Alkes</h3>
+              <p class="project-description">
+                Lembar pemantauan stok masuk-keluar obat dan alat kesehatan dengan peringatan saat stok mendekati batas
+                minimum dan pelacakan kedaluwarsa.
+              </p>
+              <div class="project-footer">
+                <button class="btn-preview project-link" style="background:none; border:none; cursor:pointer;">
+                  Detail Lengkap <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <a href="#" class="link-demo" style="display:none;"></a>
+                <a href="#" class="link-code" style="display:none;"></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyek 3: Matriks Perencanaan P1-P2-P3 & Monitoring Akreditasi -->
+          <!-- VERIFIKASI: ganti dengan proyek nyata yang pernah dikerjakan -->
+          <article class="project-card" data-category="manajemen">
+            <div class="project-thumb">
+              <img src="assets/images/project-3.svg" alt="Matriks Perencanaan P1-P2-P3 &amp; Monitoring Akreditasi">
+              <div class="project-overlay">
+                <button class="overlay-btn btn-preview" title="Lihat Pratinjau"><i class="fa-solid fa-eye"></i></button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Excel</span>
+                <span class="project-tag">Perencanaan</span>
+                <span class="project-tag">Akreditasi</span>
+              </div>
+              <h3 class="project-title">Matriks Perencanaan P1-P2-P3 &amp; Monitoring Akreditasi</h3>
+              <p class="project-description">
+                Template terstruktur untuk menyusun perencanaan tahunan, rencana pelaksanaan kegiatan, dan checklist
+                kesiapan dokumen akreditasi.
+              </p>
+              <div class="project-footer">
+                <button class="btn-preview project-link" style="background:none; border:none; cursor:pointer;">
+                  Detail Lengkap <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <a href="#" class="link-demo" style="display:none;"></a>
+                <a href="#" class="link-code" style="display:none;"></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyek 4: Prototipe Monitoring Suhu Lemari Pendingin Vaksin -->
+          <!-- VERIFIKASI: ganti dengan proyek nyata yang pernah dikerjakan -->
+          <article class="project-card" data-category="iot">
+            <div class="project-thumb">
+              <img src="assets/images/project-4.svg" alt="Prototipe Monitoring Suhu Lemari Pendingin Vaksin">
+              <div class="project-overlay">
+                <button class="overlay-btn btn-preview" title="Lihat Pratinjau"><i class="fa-solid fa-eye"></i></button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">ESP32</span>
+                <span class="project-tag">Sensor Suhu</span>
+                <span class="project-tag">Google Sheets</span>
+              </div>
+              <h3 class="project-title">Prototipe Monitoring Suhu Lemari Pendingin Vaksin</h3>
+              <p class="project-description">
+                Prototipe sensor suhu berbasis mikrokontroler yang mengirim data ke Google Sheets dan memberi peringatan
+                bila suhu keluar dari rentang aman rantai dingin.
+              </p>
+              <div class="project-footer">
+                <button class="btn-preview project-link" style="background:none; border:none; cursor:pointer;">
+                  Detail Lengkap <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <a href="#" class="link-demo" style="display:none;"></a>
+                <a href="#" class="link-code" style="display:none;"></a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         CERTIFICATES & ACHIEVEMENTS SECTION (Sertifikasi & Pelatihan)
+         =================================================================== -->
+    <section class="certificates" id="certificates">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-award"></i> Kredensial &amp; Pengembangan</span>
+          <h2 class="section-title">Sertifikasi &amp; <span class="highlight">Pelatihan</span></h2>
+          <p class="section-subtitle">
+            Dokumen kompetensi dan keikutsertaan pelatihan pendukung profesionalitas.
+          </p>
+        </div>
+
+        <div class="certs-grid">
+
+          <!-- Kartu 1: Saran Kategori Manajemen / Akreditasi Puskesmas -->
+          <!-- VERIFIKASI: Saran kategori: (1) manajemen/akreditasi Puskesmas (misal: Pelatihan Tata Kelola FKTP, Manajemen Mutu, atau Pendampingan Akreditasi) -->
+          <div class="cert-card">
+            <div class="cert-badge">
+              <i class="fa-solid fa-hospital"></i>
+            </div>
+            <h3 class="cert-title">[ISI: Nama Sertifikat / Pelatihan]</h3>
+            <p class="cert-issuer">[ISI: Penyelenggara]</p>
+            <div class="cert-meta">
+              <span><i class="fa-regular fa-calendar"></i> [ISI: Tahun]</span>
+            </div>
+          </div>
+
+          <!-- Kartu 2: Saran Kategori Excel / Analisis Data -->
+          <!-- VERIFIKASI: Saran kategori: (2) Excel/analisis data (misal: Pelatihan Analisis Data Kesehatan Berbasis Microsoft Excel & Google Sheets) -->
+          <div class="cert-card">
+            <div class="cert-badge">
+              <i class="fa-solid fa-file-excel"></i>
+            </div>
+            <h3 class="cert-title">[ISI: Nama Sertifikat / Pelatihan]</h3>
+            <p class="cert-issuer">[ISI: Penyelenggara]</p>
+            <div class="cert-meta">
+              <span><i class="fa-regular fa-calendar"></i> [ISI: Tahun]</span>
+            </div>
+          </div>
+
+          <!-- Kartu 3: Saran Kategori Pemrograman / IoT -->
+          <!-- VERIFIKASI: Saran kategori: (3) Pemrograman/IoT (misal: Pelatihan Dasar Pemrograman, Otomasi Script, atau IoT Sensor Terapan) -->
+          <div class="cert-card">
+            <div class="cert-badge">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h3 class="cert-title">[ISI: Nama Sertifikat / Pelatihan]</h3>
+            <p class="cert-issuer">[ISI: Penyelenggara]</p>
+            <div class="cert-meta">
+              <span><i class="fa-regular fa-calendar"></i> [ISI: Tahun]</span>
+            </div>
+          </div>
+
+          <!-- Kartu 4: Saran Kategori Kepemimpinan / Komunikasi -->
+          <!-- VERIFIKASI: Saran kategori: (4) Kepemimpinan/komunikasi (misal: Latihan Kepemimpinan IMM / IPM / Manajemen Organisasi) -->
+          <div class="cert-card">
+            <div class="cert-badge">
+              <i class="fa-solid fa-people-group"></i>
+            </div>
+            <h3 class="cert-title">[ISI: Nama Sertifikat / Pelatihan]</h3>
+            <p class="cert-issuer">[ISI: Penyelenggara]</p>
+            <div class="cert-meta">
+              <span><i class="fa-regular fa-calendar"></i> [ISI: Tahun]</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         CONTACT SECTION (HUBUNGI SAYA)
+         =================================================================== -->
+    <section class="contact" id="contact">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-regular fa-comments"></i> Terhubung</span>
+          <h2 class="section-title">Hubungi <span class="highlight">Saya</span></h2>
+          <p class="section-subtitle">
+            Tertarik berdiskusi seputar manajemen Puskesmas, pengolahan data, atau kolaborasi? Silakan kirimkan pesan!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Direct Channels (Hanya yang ada di DATA DIRI) -->
+          <div class="contact-info-panel">
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email Langsung</h4>
+                <a href="mailto:alpinliqyour@gmail.com">alpinliqyour@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="contact-details">
+                <h4>WhatsApp / Telepon</h4>
+                <a href="https://wa.me/6283107522692" target="_blank" rel="noopener noreferrer">+62 831-0752-2692</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Domisili</h4>
+                <p>Pandeglang, Banten, Indonesia</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Contact Form (Membuka mailto saat submit) -->
+          <div class="contact-form-card">
+            <form id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="sender-name" class="form-label">Nama Lengkap</label>
+                  <input type="text" id="sender-name" class="form-input" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                  <label for="sender-email" class="form-label">Alamat Email</label>
+                  <input type="email" id="sender-email" class="form-input" placeholder="nama@email.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-subject" class="form-label">Subjek Pesan</label>
+                <input type="text" id="sender-subject" class="form-input"
+                  placeholder="Contoh: Diskusi Tata Kelola Puskesmas / Analisis Data">
+              </div>
+
+              <div class="form-group">
+                <label for="sender-message" class="form-label">Pesan Anda</label>
+                <textarea id="sender-message" class="form-textarea" rows="4"
+                  placeholder="Tuliskan pesan atau kebutuhan Anda..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fa-solid fa-paper-plane"></i> Kirim Pesan
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================================================================
+       FOOTER
+       =================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-copy">
+        &copy; 2026 <strong>M. Alfin Ma'arif</strong>. Dibuat dengan dedikasi &amp; semangat belajar.
+      </div>
+      <button id="back-to-top" class="back-to-top" aria-label="Kembali ke Atas" style="opacity: 0; visibility: hidden;">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       MODAL DIALOG (DETAIL PROYEK PREVIEW)
+       =================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <button class="modal-close" id="modal-close" aria-label="Tutup Dialog">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img src="" alt="Pratinjau Proyek" class="modal-image" id="modal-img">
+      <div class="modal-body">
+        <div class="project-tags" id="modal-tags"></div>
+        <h3 class="modal-title" id="modal-title">Judul Proyek</h3>
+        <p class="modal-desc" id="modal-desc">Deskripsi proyek akan ditampilkan di sini.</p>
+        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" id="modal-demo">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Kunjungi Situs
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="modal-github">
+            <i class="fa-brands fa-github"></i> Lihat Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
